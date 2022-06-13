@@ -1,0 +1,265 @@
+ul li {
+    list-style: none;
+}
+
+body{
+    background-image: url(imagenesSitio/verduleria-28.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.madera {
+    background-image: url(imagenesSitio/madera-3.jpg);
+    background-repeat: repeat-y;
+    
+    margin-right: 50px;
+    margin-left: 140px;    
+}
+
+#delivery{
+    margin-left: 200px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    
+}
+
+.logo{
+    padding-top: 100px;
+    margin-left: 350px;
+    margin-right: 350px;    
+}
+
+.nav li a{
+    text-decoration: none;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.nav > li{
+    
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 140px;
+ 
+}
+
+.nav li a:hover{
+    background-color: darkred;
+    transition-delay: 3ms;
+    
+}
+
+.galeria form{
+    padding-top: 60px;
+    margin-left:  200px;
+    margin-right: 80px;
+}
+
+h3{
+    margin-left: 200px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    color: rgb(104, 16, 16);
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.galeria input{
+
+    margin: 40px;
+    margin-left: 90px;
+    width: 150px;
+    height: 30px;
+}
+.galeria form input{
+    background: green;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.formulario form{
+    background: rgba(0, 0, 0, .6);
+    width: 80%;
+    max-width: 650px;
+    margin: 160px;
+    padding: 5px 35px;
+    margin-top: 30px;
+    margin-bottom: 20;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+
+.formulario .form .form-label {
+    display: block;
+    color: orange;
+    font-size: 20px;
+    font-family: Roboto;
+    position: relative;
+}
+
+p{
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+.formulario .form .form-input, .form-textarea {
+    
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orange;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 20px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.contenedor .form, .button-submit{
+    width: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: none;
+    background: green;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.contenedor .form, .button-limpiar{
+    width: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: none;
+    background: green;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding: 15px 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.formulario .form .form-textarea {
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+
+}
+
+footer{
+    width: 1025px;
+    background: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.contenedor-total{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.contenedorfoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.colum1{    
+    max-width: 250px;
+}
+
+.colum1 h1{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+.row img {
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.colum2 {
+    max-width: 250px;
+}
+.colum2 h1{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+.colum2 .row{
+    margin-top: 20px;
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img {
+    width: 35px;
+    height: 35px;
+    padding-top: 10px;
+}
+
+.row2 label{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.colum3 {
+    max-width: 200px;
+}
+
+.colum3 h1{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+
+.row3{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row3 img {
+    width: 35px;
+    height: 35px;
+}
+
+.row3 label{
+    margin-left: 300px;
+    margin-top: 5px;
+    margin-left: 20px;
+    max-width: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.derechos {
+    justify-content: space-between;
+    display: flex;
+    max-width: 100%;
+    color: green;
+    background: rgba(0, 0, 0, .6);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
